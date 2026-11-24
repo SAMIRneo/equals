@@ -2,6 +2,8 @@
 
 Site statique en français consacré à la transcription descriptive de l’infographie World Hierarchy Pyramid.
 
+Site public : https://samirneo.github.io/equals/
+
 ## Contenu
 
 - index.html, styles.css, app.js : interface éditoriale, responsive et interactive.
