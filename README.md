@@ -1,4 +1,4 @@
-# World Hierarchy Pyramid — Atlas documentaire
+# Projet « = » — World Hierarchy Pyramid
 
 Site statique en français consacré à la transcription descriptive de l’infographie World Hierarchy Pyramid.
 
@@ -12,3 +12,5 @@ Site statique en français consacré à la transcription descriptive de l’info
 Le site propose une recherche par chapitre, un sommaire ancré, des sections repliables, des liens partageables vers chaque chapitre, l’agrandissement de l’image et l’impression.
 
 La page retranscrit les affirmations de l’infographie à titre documentaire ; elle ne les vérifie pas.
+
+GitHub n’acceptant pas le signe égal dans les noms de dépôts, le slug du dépôt est equals.
