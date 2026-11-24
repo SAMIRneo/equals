@@ -1,0 +1,93 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171611">
+  <meta name="description" content="Transcription documentaire et navigation interactive de l’infographie World Hierarchy Pyramid (2023).">
+  <title>World Hierarchy Pyramid — Atlas documentaire</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath fill='%23d89a59' d='M20 3 38 36H2z'/%3E%3Cpath fill='%23171611' d='m20 13 12 21H8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <header class="topbar">
+    <a class="wordmark" href="#accueil" aria-label="Revenir à l’accueil"><span class="wordmark-mark">W<span>/</span>P</span><span class="wordmark-name">Atlas documentaire</span></a>
+    <div class="topbar-right"><span class="topbar-edition">DOSSIER VISUEL <i></i> 2023</span><a class="repo-link" href="https://github.com/SAMIRneo/=/" target="_blank" rel="noreferrer">Dépôt GitHub <span aria-hidden="true">↗</span></a></div>
+  </header>
+
+  <div class="page-grid" id="accueil">
+    <aside class="sidebar" aria-label="Navigation du dossier">
+      <div class="sidebar-sticky">
+        <p class="eyebrow sidebar-eyebrow">ARCHIVE <span>01 — 17</span></p>
+        <h2 class="sidebar-title">Dans ce<br>document</h2>
+        <label class="search-label" for="search-input">Rechercher dans la transcription</label>
+        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Un nom, un niveau…" autocomplete="off"><kbd>/</kbd></div>
+        <p class="search-hint">La recherche parcourt tous les chapitres.</p>
+        <div id="search-results" class="search-results" aria-live="polite" hidden></div>
+        <nav class="contents-nav" aria-label="Sommaire"><p class="nav-caption">SOMMAIRE</p><ol id="contents-list"></ol></nav>
+        <div class="sidebar-foot"><span class="status-dot"></span> TRANSCRIPTION COMPLÈTE <span id="chapter-total">—</span></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> CARTOGRAPHIE VISUELLE <span class="eyebrow-dot">·</span> LECTURE DOCUMENTAIRE</p>
+          <h1 id="page-title">World Hierarchy<br><em>Pyramid</em></h1>
+          <p class="hero-deck">Une infographie, ses strates et ses symboles — réunis dans une transcription que l’on peut parcourir, rechercher et consulter à son rythme.</p>
+          <div class="hero-meta"><span>FRANÇAIS</span><span class="meta-sep">/</span><span>DEEP STATE MAPPING PROJECT</span><span class="meta-sep">/</span><span>2023</span></div>
+          <div class="hero-actions"><a class="button button-primary" href="#documentation">Parcourir le dossier <span aria-hidden="true">↓</span></a><a class="text-link" href="DOCUMENTATION_EXHAUSTIVE_PYRAMIDE.md" download>Télécharger la transcription <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <button class="artwork-frame" id="open-artwork" type="button" aria-label="Agrandir l’infographie source">
+          <img src="py.jpg" alt="Infographie World Hierarchy Pyramid, pyramide hiérarchique illustrée sur fond crépusculaire." fetchpriority="high">
+          <span class="artwork-caption"><span>FIG. 01</span><span>OUVRIR L’IMAGE <b aria-hidden="true">↗</b></span></span>
+        </button>
+        <div class="hero-index" aria-hidden="true">DOSSIER <span>№ 01</span></div>
+      </section>
+
+      <section class="reading-note" aria-label="Note de lecture">
+        <span class="note-mark" aria-hidden="true">i</span>
+        <p>Cette page décrit ce qui est écrit dans l’infographie. Elle ne vérifie ni ne présente comme établies les affirmations qui y figurent.</p>
+        <span class="note-credit">SOURCE : PYRAMIDE ORIGINALE</span>
+      </section>
+
+      <section class="overview" aria-label="Contenu du dossier">
+        <div class="overview-item"><span class="overview-number" id="stat-chapters">17</span><span class="overview-label">chapitres documentés</span></div>
+        <div class="overview-item"><span class="overview-number">33°</span><span class="overview-label">degrés chevaleresques</span></div>
+        <div class="overview-item"><span class="overview-number">A–Z</span><span class="overview-label">index des écritures</span></div>
+        <div class="overview-note">Du sommet symbolique<br>à la base de la pyramide.</div>
+      </section>
+
+      <section class="document-area" id="documentation" aria-labelledby="doc-heading">
+        <div class="document-heading">
+          <div><p class="eyebrow"><span class="eyebrow-rule"></span> LA TRANSCRIPTION</p><h2 id="doc-heading">Le document, en détail</h2></div>
+          <div class="document-controls"><button class="quiet-button" id="expand-all" type="button">Tout déplier <span aria-hidden="true">＋</span></button><button class="quiet-button" id="collapse-all" type="button">Tout replier <span aria-hidden="true">−</span></button><button class="quiet-button print-button" id="print-page" type="button" aria-label="Imprimer cette page">Imprimer <span aria-hidden="true">↗</span></button></div>
+        </div>
+        <article class="document" id="document" aria-live="off"></article>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-mark">W<span>/</span>P</div>
+        <div><strong>World Hierarchy Pyramid</strong><p>Transcription descriptive de l’infographie · Deep State Mapping Project · © 2023 Dylan Louis Morreau</p></div>
+        <a href="#accueil" class="back-top">Retour en haut ↑</a>
+      </footer>
+    </main>
+  </div>
+
+  <dialog class="artwork-dialog" id="artwork-dialog" aria-label="Infographie source agrandie">
+    <div class="dialog-toolbar"><span>FIG. 01 — WORLD HIERARCHY PYRAMID</span><button id="close-artwork" type="button" aria-label="Fermer l’image agrandie">FERMER <b aria-hidden="true">×</b></button></div>
+    <img src="py.jpg" alt="Version agrandie de l’infographie World Hierarchy Pyramid.">
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="source-content" hidden>
+    {% capture documentation %}{% include_relative DOCUMENTATION_EXHAUSTIVE_PYRAMIDE.md %}{% endcapture %}
+    {{ documentation | markdownify }}
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
